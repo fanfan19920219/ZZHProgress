@@ -15,6 +15,7 @@
 		293285C51C2931640033DFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293285C31C2931640033DFD5 /* LaunchScreen.storyboard */; };
 		293285D01C2931640033DFD5 /* ZZH_ProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 293285CF1C2931640033DFD5 /* ZZH_ProgressViewTests.m */; };
 		293285DB1C2931640033DFD5 /* ZZH_ProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 293285DA1C2931640033DFD5 /* ZZH_ProgressViewUITests.m */; };
+		293285EB1C2931870033DFD5 /* ZZHProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 293285EA1C2931870033DFD5 /* ZZHProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		293285D61C2931640033DFD5 /* ZZH_ProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZH_ProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		293285DA1C2931640033DFD5 /* ZZH_ProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZH_ProgressViewUITests.m; sourceTree = "<group>"; };
 		293285DC1C2931640033DFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293285E91C2931870033DFD5 /* ZZHProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHProgressView.h; sourceTree = "<group>"; };
+		293285EA1C2931870033DFD5 /* ZZHProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				293285B91C2931640033DFD5 /* AppDelegate.m */,
 				293285BB1C2931640033DFD5 /* ViewController.h */,
 				293285BC1C2931640033DFD5 /* ViewController.m */,
+				293285E81C29316A0033DFD5 /* ZZHProgress */,
 				293285BE1C2931640033DFD5 /* Main.storyboard */,
 				293285C11C2931640033DFD5 /* Assets.xcassets */,
 				293285C31C2931640033DFD5 /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				293285DC1C2931640033DFD5 /* Info.plist */,
 			);
 			path = ZZH_ProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		293285E81C29316A0033DFD5 /* ZZHProgress */ = {
+			isa = PBXGroup;
+			children = (
+				293285E91C2931870033DFD5 /* ZZHProgressView.h */,
+				293285EA1C2931870033DFD5 /* ZZHProgressView.m */,
+			);
+			name = ZZHProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293285EB1C2931870033DFD5 /* ZZHProgressView.m in Sources */,
 				293285BD1C2931640033DFD5 /* ViewController.m in Sources */,
 				293285BA1C2931640033DFD5 /* AppDelegate.m in Sources */,
 				293285B71C2931640033DFD5 /* main.m in Sources */,
